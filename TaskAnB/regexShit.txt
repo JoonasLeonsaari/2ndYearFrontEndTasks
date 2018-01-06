@@ -1,0 +1,5 @@
+
+1. pattern="^(\+?358)?9\d\d{8,10}$" //Apparently working
+
+2. pattern="^(\+?358)?\x20?\d\d{8,10}$" //Another version.
+                                          Allows a space between country code and rest of the number

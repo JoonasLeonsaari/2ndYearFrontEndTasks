@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task A</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <header><h1>Form Validation HTML5</h1></header>
+<div class="container">
+
+    <div class="formContainer formBG">
+      <form>
+        <h5 class="formInfo">First Name</h5><input class="dataform" type="text" required placeholder="Insert FirstName">
+        <h5 class="formInfo">Last Name</h5><input class="dataform" type="text" required placeholder="Insert LastName">
+        <h5 class="formInfo">Email</h5><input class="dataform" type="email" required placeholder="example@email.com">
+        <h5 class="formInfo">Phone</h5><input class="dataform" type="tel" required placeholder="add +358"
+          pattern="^(\+?358)?\d\d{8,10}$">
+        <h5 class="formInfo">Address</h5><input class="dataform" type="text" placeholder="LoremIpsumStreetAddress">
+        <h5 class="formInfo">Postal code</h5><input class="dataform" type="text" placeholder="Exactly 5 digits"
+            pattern="[0-9]{5}">
+        <h5 class="formInfo">Password</h5><input class="dataform" type="password" required>
+        <input class="submit" type="submit">
+      </form>
+    </div>
+    <script src="js/main.js"></script>
+  </div>
+</body>
+
+</html>
